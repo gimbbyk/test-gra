@@ -9,29 +9,23 @@
 	body {
 		background-image: url("image3.jpg");
 		background-repeat: no-repeat;
-		position:relative;
-		background-position: right;
+		background-position: top right;
 		background-color: black;
-		padding: 600px;
 		
 		
 	}
 	#ticketsnow{ 
-		position: relative;
-		bottom: -130px;
-		left: -200px;
 		font-family: "novecento-sans-condensed", sans-serif;
 		font-weight: 600;
 		font-style: normal;
 		font-size: 25px;
 		color: white;
+		display: block;
+		margin: auto;
 		
 		
 	}
 	#home{
-		position: relative;
-		top: 100px;
-		left: -270px;
 		font-family: "novecento-sans-condensed", sans-serif;
 		font-weight: 500;
 		font-style: normal;
@@ -40,9 +34,6 @@
 	}
 	
 	#soundtrack{
-		position: relative;
-		top: 100px;
-		left: -295px;
 		font-family: "novecento-sans-condensed", sans-serif;
 		font-weight: 500;
 		font-style: normal;
@@ -52,9 +43,6 @@
 	}
 	
 	#cast{
-		position: relative;
-		top: 100px;
-		left: -75px;
 		font-family: "novecento-sans-condensed", sans-serif;
 		font-weight: 500;
 		font-style: normal;
@@ -63,9 +51,6 @@
 	}
 	
 	#behindthescenes{
-		position: relative;
-		top: 100px;
-		left: -167px;
 		font-family: "novecento-sans-condensed", sans-serif;
 		font-weight: 500;
 		font-style: normal;
@@ -76,18 +61,22 @@
 	wrapper {
 		display:block;
 		margin: auto;
-		width: 750px;
+		width: 2100px;
+		padding-top: 150px;
 		
 	}	
+	section {
+		width: 1000px;
+		text-align: center;
+	}
 	
 	#FNAF2trailer{
-		position: absolute;
-		left: 100px;
-		top: 100px;
-		
+		display: block;
+		margin: auto;
 	}
 	button{
 		background-color: transparent;
+		margin: 20px;
 	}
 	
 	.footer{
@@ -103,13 +92,17 @@
 		padding: 20px;
 			
 	}
-	
+	a {
+		text-decoration: none;
+	}
 	
 	</style>	
 </head>
 
 <body>
-	<header>
+		<wrapper>
+			<section>
+	<iframe width="1000" height="563" id="FNAF2trailer" src="https://www.youtube.com/embed/dSDpoobO6yM?si=cVjrq7bdLv6afsiR&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 	<a href="home" target="new">
 				<button id="home"> home</button>
 			</a>
@@ -121,15 +114,12 @@
 		</a>
 	<a href="behindthescenes" target="new">
 				<button id="behindthescenes"> behind the scenes</button>
-		</a>
-		</header>
-	<wrapper>
-	<iframe width="1000" height="563" id="FNAF2trailer" src="https://www.youtube.com/embed/dSDpoobO6yM?si=cVjrq7bdLv6afsiR&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-		
+		</a>	
 		
 	<a href="GET TICKETS NOW" target="new">
 				<button id="ticketsnow"> GET TICKETS NOW</button>
 			</a>
+				</section>
 		</wrapper>
 	
 	<p class="footer">© 2025, Kristen Molina. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
