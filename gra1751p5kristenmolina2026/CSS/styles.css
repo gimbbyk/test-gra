@@ -1,0 +1,125 @@
+@charset "utf-8";
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    background-color: #000000;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+wrapper {
+    width: 1366px;
+    display: block;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-left: 26px;
+}
+
+body nav a {
+    color: #FFFFFF;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 0px;
+}
+.navlist {
+    list-style-type: none;
+    display: inline-block;
+    margin-bottom: -15px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+.navlistitem {
+    float: left;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    text-align: center;
+}
+body h1 {
+    background-color: #FFFFFF;
+    margin-left: -215px;
+}
+section {
+    width: 50%;
+    display: inline-block;
+    margin-right: -4px;
+    padding-right: 0px;
+    padding-left: 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+    color: #000000;
+    text-align: left;
+    padding-bottom: 175px;
+}
+.apparel {
+    position: relative;
+}
+nav button {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    border-radius: 25px;
+}
+nav button:hover {
+    border: thick solid #000000;
+    opacity: 0.56;
+}
+
+.blue {
+    color: #1F2299;
+    background-color: #1F2098;
+}
+.pink {
+    background-color: #941B8F;
+}
+.green {
+    background-color: #189354;
+}
+
+div {
+    position: absolute;
+    left: 40px;
+    visibility: hidden;
+}
+h2 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+h3 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+}
+.sizes button {
+    border-radius: 0px;
+    width: 35px;
+    height: 35px;
+    padding-left: 0px;
+    margin-right: -6px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.sizes button:hover {
+}
+h5 {
+    display: inline-block;
+    font-size: 17px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.addtocart button {
+    display: inline-block;
+    text-align: center;
+    height: 30px;
+    width: auto;
+    font-size: large;
+    border-radius: 0px;
+}
+.addtocart button:hover {
+}
