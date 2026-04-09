@@ -1,0 +1,149 @@
+<!doctype html>
+  <html>
+  <head>
+  <meta charset="utf-8">
+  <title>Welcome to Expedia MDC proj.6 | Kristen Molina, 2026</title>
+  <style type="text/css">
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #CCCCCC;
+    background-image: url(assets/nils-nedel-ONpGBpns3cs-unsplash.jpg);
+    background-size: cover;
+}
+  #Tabs1 img {
+    width: 60px;
+    height: 60px;
+}
+  #Tabs1 ul li {
+    text-align: center;
+}
+  #Tabs1 ul {
+    background-image: none;
+    border: none;
+    background-color: transparent;
+}
+  #Tabs1 {
+    border: none;
+    background-color: rgba(255,255,255,0.48);
+    background-image: none;
+}
+  #Tabs1 div {
+    background-color: rgba(255,255,255,1.00);
+	  display: grid;
+	  grid-template-columns: auto auto auto auto auto;
+	  gap: 10px;
+}
+  #Tabs1 div input {
+    border: thin solid gray;
+}
+#submit    , #submit2   , #submit3, #submit4, #submit5{
+    background-color: rgba(74,95,216,1.00);
+    color: rgba(255,255,255,1.00);
+}
+  footer {
+    color: rgba(255,255,255,1.00);
+    clear: both;
+    /* [disabled]position: fixed; */
+    top: auto;
+    right: auto;
+    left: auto;
+    width: 100%;
+    bottom: 0px;
+    height: 40px;
+    padding-top: 49px;
+}
+  </style>
+  <link href="CSS/styles.css" rel="stylesheet" type="text/css">
+  <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+  <link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+  <link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+  <script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+  <script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+  </head>
+    
+  <body>
+  <header><img src="assets/Expedia-Horizontal-Logo-Product-Full-Colour-Dark-Blue-RGB.png" width="2641" height="532" alt=""/></header>
+ 
+  <wrapper>
+    <div id="Tabs1">
+      <ul>
+        <li><a href="#tabs-1"><img src="assets/noun-airplane-8229459.png" alt="" width="700" height="610"><br>
+          Flights</a></li>
+        <li><a href="#tabs-2"><img src="assets/noun-bed-8325742.png" alt="" width="700" height="608"><br>
+          Stays</a></li>
+        <li><a href="#tabs-3"><img src="assets/noun-car-8350660.png" alt="" width="700" height="602"><br>
+          Cars</a></li>
+<li><a href="#tabs-4"><img src="assets/noun-cruise-7597017.png" alt="" width="700" height="610"><br>
+        Cruises</a></li>
+        <li><a href="#tabs-5"><img src="assets/noun-check-list-7621673.png" alt="" width="700" height="606"><br>
+        Things to Do</a></li>
+      </ul>
+      <div id="tabs-1">
+        <input name="textfield" type="text" id="textfield" placeholder="Leaving from">
+        <input name="textfield2" type="text" id="textfield2" placeholder="Going to">
+        <input type="date" name="date" id="date">
+        <input type="date" name="date2" id="date2">
+        <select name="select" id="select">
+          <option value="0" selected="selected">Number of Passengers</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <input type="submit" name="submit" id="submit" value="Search">
+      </div>
+      <div id="tabs-2">
+        <input placeholder="Where to?">
+        <input type="date" name="date3" id="date3">
+        <input type="date" name="date4" id="date4">
+        <select name="select2" id="select2">
+          <option value="0">Number of Guests</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+        <input type="submit" name="submit2" id="submit2" value="Submit">
+      </div>
+      <div id="tabs-3">
+        <input placeholder="Pick-Up">
+<input type="date" name="date5" id="date5">
+<input type="date" name="date6" id="date6">
+<input type="time" name="time" id="time">
+<input type="time" name="time2" id="time2">
+<input type="submit" name="submit3" id="submit3" value="Submit">
+      </div>
+<div id="tabs-4">
+  <input placeholder="Going to">
+<input type="date" name="date7" id="date7">
+<input type="date" name="date8" id="date8">
+<input type="time" name="time3" id="time3">
+<input type="time" name="time4" id="time4">
+<input type="submit" name="submit4" id="submit4" value="Submit">
+</div>
+      <div id="tabs-5">
+        <input placeholder="Going to">
+<input type="date" name="date9" id="date9">
+<input type="date" name="date10" id="date10">
+<input type="submit" name="submit5" id="submit5" value="Submit">
+      </div>
+    </div>
+  </wrapper>
+
+  <script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+  </script>
+	  
+  </body>
+	  <footer>
+		  <p>© 2026, Kristen Molina. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+  </html>

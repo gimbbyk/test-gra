@@ -1,0 +1,97 @@
+@charset "utf-8";
+body wrapper {
+    background-image: url(../assets/nils-nedel-ONpGBpns3cs-unsplash.jpg);
+
+}
+body header img {
+    display: inline-block;
+    width: 15%;
+    height: 15%;
+    margin-left: 80px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.logo {
+    background-color: #FFFFFF;
+}
+body header {
+    background-color: #FFFFFF;
+}
+#Tabs1 {
+    margin-top: 90px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#Tabs1 input {
+    width: 100%;
+    border: none;
+    border-radius: 16px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    height: 2.5em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#Tabs1 .date {
+    width: 49%;
+    display: inline-block;
+    margin-right: 12px;
+}
+#Tabs1 .submit {
+    color: #FFFFFF;
+    background-color: #00CCFF;
+    font-weight: bold;
+    margin: 8px auto;
+    display: block;
+    width: 200px;
+}
+#tabs2 ul {
+    background-color: transparent;
+    background-image: none;
+}
+#tabs2 {
+    background-color: transparent;
+    background-image: none;
+}
+
+.plane {
+    text-align: center;
+    margin-left: -91px;
+    margin-top: 40px;
+}
+.car {
+    margin-top: 38px;
+    margin-left: -72px;
+
+}
+.boat {
+    margin-left: -93px;
+    margin-top: 40px;
+    padding-top: 0px;
+
+}
+.list {
+    margin-left: -108px;
+    margin-top: 34px;
+}
+#tabs1 ul {
+    border: none;
+    background-color: transparent;
+    background-image: none;
+}
+
+
+
+
+
+
+.bed {
+    margin-left: -90px;
+    margin-top: 32px;
+
+}
